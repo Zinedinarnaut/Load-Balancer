@@ -1,5 +1,3 @@
-Certainly! Below is a detailed `README.md` file that provides comprehensive documentation on how to use the load balancer implemented in Rust with Actix web. The README includes instructions for using the load balancer from JavaScript and Go applications.
-
 ```markdown
 # Rust Load Balancer Example
 
