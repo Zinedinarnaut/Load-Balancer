@@ -1,4 +1,6 @@
+Absolutely, here's the updated README.md with alternative PostgreSQL hosting options included:
 
+```markdown
 # Rust Load Balancer 
 
 This repository demonstrates a load balancer implemented in Rust using the Actix web framework. The load balancer supports different algorithms and can be integrated into JavaScript and Go applications.
@@ -131,9 +133,13 @@ The load balancer supports caching using a Prisma-based PostgreSQL database. The
    npx prisma generate
    ```
 
+### Alternative PostgreSQL Hosting
+
+- **Railway:** [Railway](https://railway.app/) is a platform to deploy and manage databases. You can easily host a PostgreSQL database on Railway and obtain the connection URL.
+
+- **Supabase:** [Supabase](https://supabase.io/) is an open-source alternative to Firebase with a built-in PostgreSQL database. You can create a project on Supabase and obtain the connection URL.
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 ```
-
-Replace placeholders, URLs, and paths with the appropriate values for your project. This README provides detailed instructions for using the load balancer from different languages and covers database integration with Prisma.
