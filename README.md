@@ -1,4 +1,4 @@
-```markdown
+
 # Rust Load Balancer 
 
 This repository demonstrates a load balancer implemented in Rust using the Actix web framework. The load balancer supports different algorithms and can be integrated into JavaScript and Go applications.
