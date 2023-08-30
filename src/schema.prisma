@@ -1,0 +1,14 @@
+generator client {
+  provider = "prisma-client-rust"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model CacheEntry {
+  id       Int      @id @default(autoincrement())
+  userId   Int
+  data     String
+}
