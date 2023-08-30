@@ -4,7 +4,7 @@ use actix_web::{web, App, HttpServer};
 use functions::{
     actix_web_module::{health_check, index},
     discord::{discord_notify, Handler},
-    load_balancer::LoadBalancer,
+    load-balancer::LoadBalancer,
 };
 use log::{error, info};
 use rand::Rng;
