@@ -1,6 +1,3 @@
-Absolutely, here's the updated README.md with alternative PostgreSQL hosting options included:
-
-```markdown
 # Rust Load Balancer 
 
 This repository demonstrates a load balancer implemented in Rust using the Actix web framework. The load balancer supports different algorithms and can be integrated into JavaScript and Go applications.
@@ -142,4 +139,3 @@ The load balancer supports caching using a Prisma-based PostgreSQL database. The
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
