@@ -1,26 +1,20 @@
 [package]
 name = "load-balancer"
 version = "0.1.0"
-edition = "2021"
-
-# Add your other package metadata here
+edition = "2018"
 
 [dependencies]
-actix-web = "4.3.0"
-log = "0.4"
-env_logger = "0.10.0"
-rand = "0.8"
+actix-web = "3.4"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
 reqwest = "0.11"
+log = "0.4"
+env_logger = "0.10"
+rand = "0.8"
 serenity = "0.10"
-sqlx = { version = "0.5", features = ["postgres"] }
-prisma = "2.0.0-beta.x"
-
-[dependencies.serde]
-version = "1.0"
-features = ["derive"]
-
-# You can specify other dependencies as needed
-
-[dependencies.functions]
-# Specify the path to your functions module if needed
-# path = "path-to-functions-module"
+tokio = { version = "1", features = ["full"] }
+r2d2 = "0.8"
+r2d2_postgres = "0.5"
+dotenv = "0.15"
+prisma = "0.10"
+# Add any other dependencies you need

@@ -5,6 +5,7 @@ use functions::{
     actix_web_module::{health_check, index},
     discord::{discord_notify, Handler},
     load_balancer::LoadBalancer, // Adjust the module path to match your actual module structure
+	  data::configure as data_configure ; // Import the configure function
 };
 use log::{error, info};
 use rand::Rng;
@@ -37,6 +38,7 @@ async fn main() -> std::io::Result<()> {
 
     HttpServer::new(move || {
         App::new()
+			      .configure(data_configure)
             .data(lb.clone())
             .data(discord_channel)
             .data(prisma.clone()) // Pass the Prisma client to the Actix app
