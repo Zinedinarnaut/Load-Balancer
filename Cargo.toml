@@ -1,14 +1,14 @@
 [package]
 name = "load-balancer"
 version = "0.1.0"
-edition = "2018"
+edition = "2021"
 
 # Add your other package metadata here
 
 [dependencies]
-actix-web = "3.4"
+actix-web = "4.3.0"
 log = "0.4"
-env_logger = "0.11"
+env_logger = "0.10.0"
 rand = "0.8"
 reqwest = "0.11"
 serenity = "0.10"
